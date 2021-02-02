@@ -1,0 +1,7 @@
+C:\Users\szixi\Source\Repos\szixiprogramozas\Gyakorlas0205\Gyakorlas\bin\Debug\Gyakorlas.exe.config
+C:\Users\szixi\Source\Repos\szixiprogramozas\Gyakorlas0205\Gyakorlas\bin\Debug\Gyakorlas.exe
+C:\Users\szixi\Source\Repos\szixiprogramozas\Gyakorlas0205\Gyakorlas\bin\Debug\Gyakorlas.pdb
+C:\Users\szixi\Source\Repos\szixiprogramozas\Gyakorlas0205\Gyakorlas\obj\Debug\Gyakorlas.csprojAssemblyReference.cache
+C:\Users\szixi\Source\Repos\szixiprogramozas\Gyakorlas0205\Gyakorlas\obj\Debug\Gyakorlas.csproj.CoreCompileInputs.cache
+C:\Users\szixi\Source\Repos\szixiprogramozas\Gyakorlas0205\Gyakorlas\obj\Debug\Gyakorlas.exe
+C:\Users\szixi\Source\Repos\szixiprogramozas\Gyakorlas0205\Gyakorlas\obj\Debug\Gyakorlas.pdb
