@@ -53,3 +53,9 @@ C:\Users\Soma\Source\Repos\Gyakorlas0205\Gyakorlas\obj\Debug\Gyakorlas.csprojAss
 C:\Users\Soma\Source\Repos\Gyakorlas0205\Gyakorlas\obj\Debug\Gyakorlas.csproj.CoreCompileInputs.cache
 C:\Users\Soma\Source\Repos\Gyakorlas0205\Gyakorlas\obj\Debug\Gyakorlas.exe
 C:\Users\Soma\Source\Repos\Gyakorlas0205\Gyakorlas\obj\Debug\Gyakorlas.pdb
+C:\Users\Bak René\Source\Repos\szixiprogramozas\Gyakorlas0205\Gyakorlas\obj\Debug\Gyakorlas.csproj.CoreCompileInputs.cache
+C:\Users\Bak René\Source\Repos\szixiprogramozas\Gyakorlas0205\Gyakorlas\obj\Debug\Gyakorlas.exe
+C:\Users\Bak René\Source\Repos\szixiprogramozas\Gyakorlas0205\Gyakorlas\obj\Debug\Gyakorlas.pdb
+C:\Users\Bak René\Source\Repos\szixiprogramozas\Gyakorlas0205\Gyakorlas\bin\Debug\Gyakorlas.exe.config
+C:\Users\Bak René\Source\Repos\szixiprogramozas\Gyakorlas0205\Gyakorlas\bin\Debug\Gyakorlas.exe
+C:\Users\Bak René\Source\Repos\szixiprogramozas\Gyakorlas0205\Gyakorlas\bin\Debug\Gyakorlas.pdb

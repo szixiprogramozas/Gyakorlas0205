@@ -9,6 +9,7 @@ namespace Gyakorlas
 {
     class Program
     {
+        static Dictionary<string, string> orszagok = new Dictionary<string, string>();
         struct Osztalynevsor
         {
             public string nev;
@@ -237,7 +238,7 @@ namespace Gyakorlas
         }
         static void tizenharmasfeladat()
         {
-            Dictionary<string, string> orszagok = new Dictionary<string, string>();
+            
             StreamReader sr = new StreamReader(@"orszagok.txt");
 
             string sor;
@@ -284,9 +285,23 @@ namespace Gyakorlas
 
             return varos;
         }
-        static string tizenhatosfeladat()
+        static void tizenhatosfeladat()
         {
-
+             string kereses = "";
+            Console.WriteLine("Add meg a vársonevet:");
+            kereses = Console.ReadLine();
+            foreach (KeyValuePair<string, string> item in orszagok)
+            {
+                if (item.Value.Contains(kereses))
+                {
+                    Console.WriteLine(item.Key);
+                }
+                else
+                {
+                    Console.WriteLine("Nincs ilyen város, vagy az UTF-8-as kódolás miatt nem adja ki");
+                    break;
+                }
+            }
         }
     }
 }
