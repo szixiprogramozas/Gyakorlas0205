@@ -9,9 +9,14 @@ namespace Gyakorlas
 {
     class Program
     {
+        struct Osztalynevsor
+        {
+            public string nev;
+            public int ev;  
+        }
         static void Main(string[] args)
         {
-
+            Osztalynevsor[] nevsor = new Osztalynevsor[30];
             List<int> Szamok = new List<int> {3,5,2,63,2,1,5,7,5,3,1,51,0,94,3};
             Dictionary<string, string> orszagok = new Dictionary<string, string>();
 
@@ -57,7 +62,7 @@ namespace Gyakorlas
                         break;
                     case 8:
                         Console.WriteLine("8. Feladat: ");
-                        nyolcasfeladat();
+                        nyolcasfeladat(nevsor);
                         break;
                     case 9:
                         Console.WriteLine("9. Feladat: ");
@@ -185,9 +190,20 @@ namespace Gyakorlas
                 Console.WriteLine("A háromszöget nem lehet megszerkeszteni!");
             }
         }
-        static void nyolcasfeladat()
-        {          
-            
+        static void nyolcasfeladat(Osztalynevsor[]nevsor)
+        {
+            string sor = "";
+            int sorszam = 0;
+            StreamReader f = new StreamReader("nevsor.txt");
+
+            while ((sor = f.ReadLine()) != null)
+            {
+                string[] temp = sor.Split(' ');
+                nevsor[sorszam].nev = temp[0];
+                nevsor[sorszam].ev = int.Parse(temp[1]);
+                
+                sorszam++;
+            }  
         }
         static void kilencesfeladat()
         {
