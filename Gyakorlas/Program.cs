@@ -159,7 +159,7 @@ namespace Gyakorlas
         {
             Console.Write("Adja meg hányadik legnagyobb számot irassa ki: ");
             int index = int.Parse(Console.ReadLine());
-            szamok = szamok.Sort()
+            szamok.Sort();
             Console.WriteLine(szamok[index - 1]);
         }
         static void hatodikfeladat()
@@ -167,10 +167,6 @@ namespace Gyakorlas
 
         }
         static void hetedikfeladat()
-        {
-
-        }
-        static void nyolcasfeladat()
         {
              Console.WriteLine("Háromszög szerkesztése!");
             Console.WriteLine("Add meg az a oldalt: ");
@@ -187,6 +183,9 @@ namespace Gyakorlas
             {
                 Console.WriteLine("A háromszöget nem lehet megszerkeszteni!");
             }
+        }
+        static void nyolcasfeladat()
+        {          
             
         }
         static void kilencesfeladat()
