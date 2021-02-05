@@ -167,7 +167,22 @@ namespace Gyakorlas
         }
         static void nyolcasfeladat()
         {
-
+             Console.WriteLine("Háromszög szerkesztése!");
+            Console.WriteLine("Add meg az a oldalt: ");
+            int a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Add meg a b oldalt: ");
+            int b = int.Parse(Console.ReadLine());
+            Console.WriteLine("Add meg a c oldalt: ");
+            int c = int.Parse(Console.ReadLine());
+            if (a+b > c && a + c > b && b + c > a)
+            {
+                Console.WriteLine("A háromszöget meg lehet szerkeszteni!");
+            }
+            else
+            {
+                Console.WriteLine("A háromszöget nem lehet megszerkeszteni!");
+            }
+            
         }
         static void kilencesfeladat()
         {
