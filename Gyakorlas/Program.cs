@@ -170,7 +170,7 @@ namespace Gyakorlas
         }
         static void hatodikfeladat()
         {
-            Console.WriteLine("Van-e a tömben,ön által bekért szám? Adjon meg  egy számot:")
+            Console.WriteLine("Van-e a tömben,ön által bekért szám? Adjon meg  egy számot:");
             int [] t = {8,5,7,4,9,1,2,3};
             int n = t.Length;
             int bekertszam = int.Parse(Console.ReadLine());
@@ -252,7 +252,15 @@ namespace Gyakorlas
         }
         static void tizennegyesfeladat()
         {
+            StreamReader be = new StreamReader(@"orszagok.txt");
+            string sor = "";
 
+            while ((sor = be.ReadLine()) != null)
+            {
+                string[] temp = sor.Split(';');
+                Console.WriteLine(temp[0] + " "+ temp[1]);
+            }
+            be.Close();
         }
         static void tizenotosfeladat()
         {
