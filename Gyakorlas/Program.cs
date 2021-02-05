@@ -90,7 +90,9 @@ namespace Gyakorlas
                         break;
                     case 15:
                         Console.WriteLine("15. Feladat: ");
-                        tizenotosfeladat();
+                        Console.Write("Ország: ");
+                        string orszag = Console.ReadLine();
+                        Console.WriteLine(tizenotosfeladat(orszag));
                         break;
                     case 16:
                         Console.WriteLine("16. Feladat: ");
@@ -262,11 +264,27 @@ namespace Gyakorlas
             }
             be.Close();
         }
-        static void tizenotosfeladat()
+        static string tizenotosfeladat(string orszag)
         {
+            StreamReader fajl = new StreamReader(@"orszagok.txt");
+            string sor = "";
+            string varos = "";
 
+            while ((sor = fajl.ReadLine()) != null)
+            {
+                string[] temp = sor.Split(';');
+
+                if (temp[0] == orszag)
+                {
+                    varos = temp[1];
+                }
+            }
+
+            fajl.Close();
+
+            return varos;
         }
-        static void tizenhatosfeladat()
+        static string tizenhatosfeladat()
         {
 
         }
