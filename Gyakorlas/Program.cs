@@ -18,7 +18,7 @@ namespace Gyakorlas
         {
             Osztalynevsor[] nevsor = new Osztalynevsor[30];
             List<int> Szamok = new List<int> {3,5,2,63,2,1,5,7,5,3,1,51,0,94,3};
-            Dictionary<string, string> orszagok = new Dictionary<string, string>();
+            
 
             foreach (int Szam in Szamok)
 	{
@@ -224,6 +224,7 @@ namespace Gyakorlas
         }
         static void tizenharmasfeladat()
         {
+            Dictionary<string, string> orszagok = new Dictionary<string, string>();
             StreamReader sr = new StreamReader(@"orszagok.txt");
 
             string sor;
@@ -235,6 +236,8 @@ namespace Gyakorlas
                     orszagok.Add(temp[0], temp[1]);
                 }
             }
+
+            Console.WriteLine("orszagok.txt sikeresen beolvasva!");
         }
         static void tizennegyesfeladat()
         {
