@@ -17,11 +17,10 @@ namespace Gyakorlas
 	{
                 Console.Write(Szam + " ");
 	}
-<<<<<<< HEAD
 // NEM MINDEGYIK LESZ ELJÁRÁS, VAN AMELYIK FÜGGVÉNY LESZ. (B.I.)
 // MENÜ IS KÉNE. Kiválaszt egyet, lefut és vissza a menübe.		
 
-
+/*
             Console.WriteLine("\n");
             Console.WriteLine("2. Feladat: ");
             double atlag = 0;
@@ -68,10 +67,7 @@ namespace Gyakorlas
             Console.WriteLine();
             Console.WriteLine("16. Feladat: ");
             tizenhatosfeladat();
-=======
-            // NEM MINDEGYIK LESZ ELJÁRÁS, VAN AMELYIK FÜGGVÉNY LESZ. (B.I.)
-            // MENÜ IS KÉNE. Kiválaszt egyet, lefut és vissza a menübe.		
->>>>>>> 36a488adb5842957d7f198b665a8e233f4d66c32
+*/
 
             while (true)
             {
