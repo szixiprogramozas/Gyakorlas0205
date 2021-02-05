@@ -45,7 +45,7 @@ namespace Gyakorlas
                         break;
                     case 5:
                         Console.WriteLine("5. Feladat: ");
-                        otodikfeladat();
+                        otodikfeladat(Szamok);
                         break;
                     case 6:
                         Console.WriteLine("6. Feladat: ");
