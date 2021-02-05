@@ -19,8 +19,8 @@ namespace Gyakorlas
 	}
 // NEM MINDEGYIK LESZ ELJÁRÁS, VAN AMELYIK FÜGGVÉNY LESZ. (B.I.)
 // MENÜ IS KÉNE. Kiválaszt egyet, lefut és vissza a menübe.		
-		
-		
+
+
             Console.WriteLine("\n");
             Console.WriteLine("2. Feladat: ");
             double atlag = 0;
@@ -30,7 +30,7 @@ namespace Gyakorlas
             harmadikfeladat(Szamok);
             Console.WriteLine();
             Console.WriteLine("4. Feladat: ");
-            negyedikfeladat();
+            negyedikfeladat(Szamok);
             Console.WriteLine();
             Console.WriteLine("5. Feladat: ");
             otodikfeladat();
@@ -75,9 +75,9 @@ namespace Gyakorlas
         {
             double osszeg = 0;
             foreach (var item in szamok)
-	{
+	        {
                 osszeg+=item;
-	}           
+	        }           
             atlag = osszeg/15;
             Console.WriteLine("A számok átlaga: "+ Math.Round(atlag,2));
             return atlag;
@@ -91,23 +91,36 @@ namespace Gyakorlas
             for (int i = 0; i < szamok.Count; i++)
 			{
                 if (szamok[i] < min)
-	{
+            	{
                     min = szamok[i];
-	}
+	            }
 			}
             for (int i = 0; i < szamok.Count; i++)
 			{
                 if (szamok[i] > max)
-	{
+	            {
                     max = szamok[i];
-	}
+	            }
 			}
             Console.WriteLine("A legnagyobb és a legkisebb szám különbsége: " + (max - min));
         }
 
-        static void negyedikfeladat()
+        static void negyedikfeladat(List<int> szamok)
         {
+            List<int> paros = new List<int>();
+            List<int> paratlan = new List<int>();
 
+            foreach (int num in szamok)
+            {
+                if (num % 2 == 0)
+                {
+                    paros.Add(num);
+                }
+                else if (num % 2 != 0)
+                {
+                    paratlan.Add(num);
+                }
+            }
         }
 
         static void otodikfeladat()
