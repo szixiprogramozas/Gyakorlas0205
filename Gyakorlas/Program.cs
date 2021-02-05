@@ -170,7 +170,18 @@ namespace Gyakorlas
         }
         static void hatodikfeladat()
         {
-
+            Console.WriteLine("Van-e a tömben,ön által bekért szám? Adjon meg  egy számot:")
+            int [] t = {8,5,7,4,9,1,2,3};
+            int n = t.Length;
+            int bekertszam = int.Parse(Console.ReadLine());
+            int i = 0;
+            while (i<n && t[i]!=bekertszam)
+	               i++;
+ 
+		       if(i<n)
+			   Console.WriteLine("A szám benne van a tömbben. ");
+		       else
+			   Console.WriteLine("A szám nincs benne a tömbben"); 
         }
         static void hetedikfeladat()
         {
