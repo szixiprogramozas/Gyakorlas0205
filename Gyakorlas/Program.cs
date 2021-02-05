@@ -18,56 +18,7 @@ namespace Gyakorlas
                 Console.Write(Szam + " ");
 	}
 // NEM MINDEGYIK LESZ ELJÁRÁS, VAN AMELYIK FÜGGVÉNY LESZ. (B.I.)
-// MENÜ IS KÉNE. Kiválaszt egyet, lefut és vissza a menübe.		
-
-/*
-            Console.WriteLine("\n");
-            Console.WriteLine("2. Feladat: ");
-            double atlag = 0;
-            masodikfeladat(Szamok, atlag);
-            Console.WriteLine();
-            Console.WriteLine("3. Feladat: ");
-            harmadikfeladat(Szamok);
-            Console.WriteLine();
-            Console.WriteLine("4. Feladat: ");
-            negyedikfeladat(Szamok);
-            Console.WriteLine();
-            Console.WriteLine("5. Feladat: ");
-            otodikfeladat(Szamok);
-            Console.WriteLine();
-            Console.WriteLine("6. Feladat: ");
-            hatodikfeladat();
-            Console.WriteLine();
-            Console.WriteLine("7. Feladat: ");
-            hetedikfeladat();
-            Console.WriteLine();
-            Console.WriteLine("8. Feladat: ");
-            nyolcasfeladat();
-            Console.WriteLine();
-            Console.WriteLine("9. Feladat: ");
-            kilencesfeladat();
-            Console.WriteLine();
-            Console.WriteLine("10. Feladat: ");
-            tizesfeladat();
-            Console.WriteLine();
-            Console.WriteLine("11. Feladat: ");
-            tizenegyesfeladat();
-            Console.WriteLine();
-            Console.WriteLine("12. Feladat: ");
-            tizenkettesfeladat();
-            Console.WriteLine();
-            Console.WriteLine("13. Feladat: ");
-            tizenharmasfeladat();
-            Console.WriteLine();
-            Console.WriteLine("14. Feladat: ");
-            tizennegyesfeladat();
-            Console.WriteLine();
-            Console.WriteLine("15. Feladat: ");
-            tizenotosfeladat();
-            Console.WriteLine();
-            Console.WriteLine("16. Feladat: ");
-            tizenhatosfeladat();
-*/
+// MENÜ IS KÉNE. Kiválaszt egyet, lefut és vissza a menübe.
 
             while (true)
             {
