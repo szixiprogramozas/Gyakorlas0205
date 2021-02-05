@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace Gyakorlas
 {
@@ -12,6 +13,7 @@ namespace Gyakorlas
         {
 
             List<int> Szamok = new List<int> {3,5,2,63,2,1,5,7,5,3,1,51,0,94,3};
+            Dictionary<string, string> orszagok = new Dictionary<string, string>();
 
             foreach (int Szam in Szamok)
 	{
@@ -255,7 +257,17 @@ namespace Gyakorlas
         }
         static void tizenharmasfeladat()
         {
+            StreamReader sr = new StreamReader(@"orszagok.txt");
 
+            string sor;
+            while ((sor = sr.ReadLine()) != null)
+            {
+                string[] temp = sor.Split(';');
+                if (temp.Length == 2)
+                {
+                    orszagok.Add(temp[0], temp[1]);
+                }
+            }
         }
         static void tizennegyesfeladat()
         {
