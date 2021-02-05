@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Gyakorlas"
+    "\\Gyakorlas",
+    "\\Gyakorlas\\bin",
+    "\\Gyakorlas\\bin\\Debug"
   ],
   "SelectedNode": "\\Gyakorlas\\Program.cs",
   "PreviewInSolutionExplorer": false
