@@ -20,7 +20,8 @@ namespace Gyakorlas
 
             Console.WriteLine("\n");
             Console.WriteLine("2. Feladat: ");
-            masodikfeladat();
+            double atlag = 0;
+            masodikfeladat(Szamok, atlag);
             Console.WriteLine();
             Console.WriteLine("3. Feladat: ");
             harmadikfeladat(Szamok);
@@ -67,9 +68,16 @@ namespace Gyakorlas
             Console.ReadKey();
         }
 
-        static void masodikfeladat()
+        static double masodikfeladat(List<int> szamok, double atlag)
         {
-
+            double osszeg = 0;
+            foreach (var item in szamok)
+	{
+                osszeg+=item;
+	}           
+            atlag = osszeg/15;
+            Console.WriteLine("A számok átlaga: "+ Math.Round(atlag,2));
+            return atlag;
         }
 
         static void harmadikfeladat(List<int> szamok)

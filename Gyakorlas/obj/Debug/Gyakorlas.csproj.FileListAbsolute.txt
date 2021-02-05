@@ -19,3 +19,10 @@ C:\Users\A\Source\Repos\szixiprogramozas\Gyakorlas0205\Gyakorlas\obj\Debug\Gyako
 C:\Users\A\Source\Repos\szixiprogramozas\Gyakorlas0205\Gyakorlas\obj\Debug\Gyakorlas.csproj.CoreCompileInputs.cache
 C:\Users\A\Source\Repos\szixiprogramozas\Gyakorlas0205\Gyakorlas\obj\Debug\Gyakorlas.exe
 C:\Users\A\Source\Repos\szixiprogramozas\Gyakorlas0205\Gyakorlas\obj\Debug\Gyakorlas.pdb
+C:\Users\User\Source\Repos\szixiprogramozas\Gyakorlas0205\Gyakorlas\bin\Debug\Gyakorlas.exe.config
+C:\Users\User\Source\Repos\szixiprogramozas\Gyakorlas0205\Gyakorlas\bin\Debug\Gyakorlas.exe
+C:\Users\User\Source\Repos\szixiprogramozas\Gyakorlas0205\Gyakorlas\bin\Debug\Gyakorlas.pdb
+C:\Users\User\Source\Repos\szixiprogramozas\Gyakorlas0205\Gyakorlas\obj\Debug\Gyakorlas.csprojAssemblyReference.cache
+C:\Users\User\Source\Repos\szixiprogramozas\Gyakorlas0205\Gyakorlas\obj\Debug\Gyakorlas.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\szixiprogramozas\Gyakorlas0205\Gyakorlas\obj\Debug\Gyakorlas.exe
+C:\Users\User\Source\Repos\szixiprogramozas\Gyakorlas0205\Gyakorlas\obj\Debug\Gyakorlas.pdb
