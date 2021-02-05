@@ -17,57 +17,87 @@ namespace Gyakorlas
 	{
                 Console.Write(Szam + " ");
 	}
-// NEM MINDEGYIK LESZ ELJÁRÁS, VAN AMELYIK FÜGGVÉNY LESZ. (B.I.)
-// MENÜ IS KÉNE. Kiválaszt egyet, lefut és vissza a menübe.		
+            // NEM MINDEGYIK LESZ ELJÁRÁS, VAN AMELYIK FÜGGVÉNY LESZ. (B.I.)
+            // MENÜ IS KÉNE. Kiválaszt egyet, lefut és vissza a menübe.		
 
+            while (true)
+            {
+                Console.WriteLine("\n");
+                Console.WriteLine("Adja meg a feladat sorszámát: ");
+                int feladatsorszam = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("\n");
-            Console.WriteLine("2. Feladat: ");
-            double atlag = 0;
-            masodikfeladat(Szamok, atlag);
-            Console.WriteLine();
-            Console.WriteLine("3. Feladat: ");
-            harmadikfeladat(Szamok);
-            Console.WriteLine();
-            Console.WriteLine("4. Feladat: ");
-            negyedikfeladat(Szamok);
-            Console.WriteLine();
-            Console.WriteLine("5. Feladat: ");
-            otodikfeladat();
-            Console.WriteLine();
-            Console.WriteLine("6. Feladat: ");
-            hatodikfeladat();
-            Console.WriteLine();
-            Console.WriteLine("7. Feladat: ");
-            hetedikfeladat();
-            Console.WriteLine();
-            Console.WriteLine("8. Feladat: ");
-            nyolcasfeladat();
-            Console.WriteLine();
-            Console.WriteLine("9. Feladat: ");
-            kilencesfeladat();
-            Console.WriteLine();
-            Console.WriteLine("10. Feladat: ");
-            tizesfeladat();
-            Console.WriteLine();
-            Console.WriteLine("11. Feladat: ");
-            tizenegyesfeladat();
-            Console.WriteLine();
-            Console.WriteLine("12. Feladat: ");
-            tizenkettesfeladat();
-            Console.WriteLine();
-            Console.WriteLine("13. Feladat: ");
-            tizenharmasfeladat();
-            Console.WriteLine();
-            Console.WriteLine("14. Feladat: ");
-            tizennegyesfeladat();
-            Console.WriteLine();
-            Console.WriteLine("15. Feladat: ");
-            tizenotosfeladat();
-            Console.WriteLine();
-            Console.WriteLine("16. Feladat: ");
-            tizenhatosfeladat();
+                switch (feladatsorszam)
+                {
+                    case 2:
+                        Console.WriteLine("2. Feladat: ");
+                        double atlag = 0;
+                        masodikfeladat(Szamok, atlag);                        
+                        break;
+                    case 3:
+                        Console.WriteLine("3. Feladat: ");
+                        harmadikfeladat(Szamok);
+                        break;
+                    case 4:
+                        Console.WriteLine("4. Feladat: ");
+                        negyedikfeladat(Szamok);
+                        break;
+                    case 5:
+                        Console.WriteLine("5. Feladat: ");
+                        otodikfeladat();
+                        break;
+                    case 6:
+                        Console.WriteLine("6. Feladat: ");
+                        hatodikfeladat();
+                        break;
+                    case 7:
+                        Console.WriteLine("7. Feladat: ");
+                        hetedikfeladat();
+                        break;
+                    case 8:
+                        Console.WriteLine("8. Feladat: ");
+                        nyolcasfeladat();
+                        break;
+                    case 9:
+                        Console.WriteLine("9. Feladat: ");
+                        kilencesfeladat();
+                        break;
+                    case 10:
+                        Console.WriteLine("10. Feladat: ");
+                        tizesfeladat();
+                        break;
+                    case 11:
+                        Console.WriteLine("11. Feladat: ");
+                        tizenegyesfeladat();
+                        break;
+                    case 12:
+                        Console.WriteLine("12. Feladat: ");
+                        tizenkettesfeladat();
+                        break;
+                    case 13:
+                        Console.WriteLine("13. Feladat: ");
+                        tizenharmasfeladat();
+                        break;
+                    case 14:
+                        Console.WriteLine("14. Feladat: ");
+                        tizennegyesfeladat();
+                        break;
+                    case 15:
+                        Console.WriteLine("15. Feladat: ");
+                        tizenotosfeladat();
+                        break;
+                    case 16:
+                        Console.WriteLine("16. Feladat: ");
+                        tizenhatosfeladat();
+                        break;
+                    default:
+                        Console.WriteLine("Hiba! Olyan feladat sorszámát adta meg amely nem létezik!");
+                        break;
 
+                }
+            }
+            
+
+            
             Console.ReadKey();
         }
 
