@@ -17,7 +17,10 @@ namespace Gyakorlas
 	{
                 Console.Write(Szam + " ");
 	}
-
+// NEM MINDEGYIK LESZ ELJÁRÁS, VAN AMELYIK FÜGGVÉNY LESZ. (B.I.)
+// MENÜ IS KÉNE. Kiválaszt egyet, lefut és vissza a menübe.		
+		
+		
             Console.WriteLine("\n");
             Console.WriteLine("2. Feladat: ");
             double atlag = 0;
