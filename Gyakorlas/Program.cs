@@ -33,7 +33,7 @@ namespace Gyakorlas
             negyedikfeladat(Szamok);
             Console.WriteLine();
             Console.WriteLine("5. Feladat: ");
-            otodikfeladat();
+            otodikfeladat(Szamok);
             Console.WriteLine();
             Console.WriteLine("6. Feladat: ");
             hatodikfeladat();
@@ -123,9 +123,12 @@ namespace Gyakorlas
             }
         }
 
-        static void otodikfeladat()
+        static void otodikfeladat(List<int> szamok)
         {
-
+            Console.Write("Adja meg hányadik legnagyobb számot irassa ki: ");
+            int index = int.Parse(Console.ReadLine());
+            szamok = szamok.Sort()
+            Console.WriteLine(szamok[index - 1]);
         }
         static void hatodikfeladat()
         {
