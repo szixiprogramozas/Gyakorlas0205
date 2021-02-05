@@ -23,7 +23,7 @@ namespace Gyakorlas
             masodikfeladat();
             Console.WriteLine();
             Console.WriteLine("3. Feladat: ");
-            harmadikfeladat();
+            harmadikfeladat(Szamok);
             Console.WriteLine();
             Console.WriteLine("4. Feladat: ");
             negyedikfeladat();
@@ -72,9 +72,26 @@ namespace Gyakorlas
 
         }
 
-        static void harmadikfeladat()
+        static void harmadikfeladat(List<int> szamok)
         {
+            int max = szamok[0];
+            int min = szamok[0];
 
+            for (int i = 0; i < szamok.Count; i++)
+			{
+                if (szamok[i] < min)
+	{
+                    min = szamok[i];
+	}
+			}
+            for (int i = 0; i < szamok.Count; i++)
+			{
+                if (szamok[i] > max)
+	{
+                    max = szamok[i];
+	}
+			}
+            Console.WriteLine("A legnagyobb és a legkisebb szám különbsége: " + (max - min));
         }
 
         static void negyedikfeladat()
