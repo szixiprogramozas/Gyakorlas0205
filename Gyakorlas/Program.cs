@@ -303,5 +303,10 @@ namespace Gyakorlas
                 }
             }
         }
+        static void tizenhetesfeladat()
+        {
+        
+           
+        }
     }
 }
