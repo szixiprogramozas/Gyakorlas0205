@@ -99,6 +99,18 @@ namespace Gyakorlas
                         Console.WriteLine("16. Feladat: ");
                         tizenhatosfeladat();
                         break;
+                    case 17: 
+                        Console.WriteLine("17. Feladat: ");
+                        Console.WriteLine("Adja meg a file nevét: ");
+                        string filenev = Console.ReadLine();
+                        Console.WriteLine("Adja meg a szám felső határát: ");
+                        int felsohatar = int.Parse(Console.ReadLine());
+                        Console.WriteLine("Adja meg a szám alsó határát: ");
+                        int alsohatar = int.Parse(Console.ReadLine());
+                        Console.WriteLine("Adja meg hogy hány véletlenszerű számot szeretne kapni: ");
+                        int forhelp = int.Parse(Console.ReadLine());
+                        tizenhetesfeladat(filenev,alsohatar,felsohatar,forhelp);
+                        break;
                     default:
                         Console.WriteLine("Hiba! Olyan feladat sorszámát adta meg amely nem létezik!");
                         break;
@@ -303,9 +315,18 @@ namespace Gyakorlas
                 }
             }
         }
-        static void tizenhetesfeladat()
+        static void tizenhetesfeladat(string filenev,int alsohatar, int felsohatar, int forhelp)
         {
-        
+            StreamWriter ki = new StreamWriter(filenev+".txt");
+            Random rnd = new Random();
+
+            for (int  i = 0;  i < forhelp;  i++)
+            {
+                ki.WriteLine(rnd.Next(alsohatar,felsohatar));
+            }
+
+            ki.Flush();
+            ki.Close();
            
         }
     }
